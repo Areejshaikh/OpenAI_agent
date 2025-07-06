@@ -1,5 +1,5 @@
 [project]
-name = "class02"
+name = "class03"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -7,10 +7,16 @@ authors = [
     { name = "Areej", email = "areejzaheer96@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "dot>=0.3.0",
+    "dotenv>=0.9.9",
+    "env>=0.1.0",
+    "openai-agents>=0.1.0",
+]
 
 [project.scripts]
-class02 = "src/class02/main.py"
+class03 = "class03:main"
+weather = "class03:Weather"
 
 [build-system]
 requires = ["hatchling"]

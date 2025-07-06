@@ -1,5 +1,5 @@
 [project]
-name = "class02"
+name = "combine"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -10,7 +10,8 @@ requires-python = ">=3.13"
 dependencies = []
 
 [project.scripts]
-class02 = "src/class02/main.py"
+combine = "combine:main"
+hello = "combine.helloworld:Hello"
 
 [build-system]
 requires = ["hatchling"]

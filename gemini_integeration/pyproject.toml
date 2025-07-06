@@ -1,5 +1,5 @@
 [project]
-name = "class02"
+name = "gemini-integeration"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -7,10 +7,14 @@ authors = [
     { name = "Areej", email = "areejzaheer96@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "dotenv>=0.9.9",
+    "openai-agents>=0.1.0",
+]
 
 [project.scripts]
-class02 = "src/class02/main.py"
+gemini-integeration = "gemini_integeration:main"
+gemini  = "hello:gemiiIntegeration"
 
 [build-system]
 requires = ["hatchling"]
