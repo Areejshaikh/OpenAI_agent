@@ -1,0 +1,21 @@
+[project]
+name = "running-paractice"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Areejshaikh", email = "160318564+Areejshaikh@users.noreply.github.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "dotenv>=0.9.9",
+    "openai-agents>=0.1.0",
+]
+
+[project.scripts]
+running-paractice = "running_paractice:main"
+running= "running_paractice:abc"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

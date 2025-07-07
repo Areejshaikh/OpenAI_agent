@@ -7,7 +7,7 @@ import asyncio
 import os
 
 load_dotenv()
-api_key = os.environ.get("GEMINI_API_KEY")
+api_key = os.getenv("GEMINI_API_KEY")
 set_default_openai_key(api_key)
 
 
