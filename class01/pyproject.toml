@@ -11,8 +11,7 @@ dependencies = []
 
 [project.scripts]
 class01 = "class01:main"
-new_cammand = "class01.hello:HelloWorld"
-test_cammand = "class01.test_folder.sub_folder.test:Test"
+
 
 [build-system]
 requires = ["hatchling"]
