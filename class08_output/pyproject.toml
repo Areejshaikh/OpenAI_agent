@@ -1,5 +1,5 @@
 [project]
-name = "contex-integeration"
+name = "class08-output"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -9,12 +9,11 @@ authors = [
 requires-python = ">=3.13"
 dependencies = [
     "dotenv>=0.9.9",
-    "google-generativeai>=0.8.5",
     "openai-agents>=0.1.0",
 ]
 
 [project.scripts]
-contex-integeration = "contex_integeration:main"
+class08-output = "class08_output:main"
 
 [build-system]
 requires = ["hatchling"]
